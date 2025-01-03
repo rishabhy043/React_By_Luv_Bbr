@@ -1,0 +1,25 @@
+.counter_container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.click , .num{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.Plus-btn , .minus-btn{
+    width: 90px;
+    border-radius: 5px;
+    padding: 10px;
+}
